@@ -1,0 +1,156 @@
+/* Import Google font */
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
+
+/* Reset default styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+/* Set background gradient for the body */
+body{
+    background: linear-gradient(#1DB954, #1C1C1C);
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Set styles for the container holding the login box */
+#spotify-login-page-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Set styles for the login box */
+#auth-container{
+    height: 650px;
+    width: 400px;
+    background-color: #1C1C1C;
+    border-radius: 7px;
+}
+
+/* Set styles for the logo and title */
+.logo{
+    position: relative;
+    top: 40px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0 10px 0;
+    column-gap: 5px;
+    font-size: 36px;
+}
+
+.logo img{
+    height: 60px;
+}
+
+.title{
+    position: relative;
+    top: 70px;
+    color: white;
+    justify-content: center;
+    align-items: center
+    color: white;
+    margin: 0px 0 10px 30px;
+    font-size: 24px;
+}
+
+/* Set styles for the login form */
+.login-form-container{
+    position: relative;
+    top: 100px;
+    left: 30px;
+    right: 30px;
+    height: 325px;
+    width: 340px;
+    border-radius: 7px;
+    border: 2px solid whitesmoke;
+}
+
+/* Set styles for the login input fields */
+.login_input_container{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-top: 25px;
+}
+
+.login_input_container p{
+    margin: 15px;
+}
+
+.login_input_container input{
+    position: relative;
+    left: 15px;
+    padding: 5px;
+    width: 300px;
+    height: 25px;
+}
+
+.login_input_container input:hover{
+    position: relative;
+    left: 15px;
+    bottom: 2px;
+}
+
+.login_input_container input:focus{
+    background-color: transparent;
+    color: white;
+}
+
+/* Set styles for the login options (remember me and forgot password) */
+.login-options-container{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.login-options-container div{
+    display: flex;
+    flex-direction: row;
+    margin-right: 30px;    
+}
+
+.login-options-container div input{
+    margin-right: 7px;
+}
+
+.login-options-container a{
+    color: #1DB954;
+}
+
+/* Set styles for the login button */
+.login_btn_container input{
+    width: 300px;
+    margin-left: 15px;
+    margin-top: 30px;
+    height: 35px;
+    background-color: #1DB954;
+    color: white;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 16px;
+}
+
+.login_btn_container input:hover{
+    position: relative;
+    bottom: 2px;
+}
+
+/* Set styles for the signup container */
+.signup_container {
+    position: relative;
+    top: 130px;
+    left: 92px;  
+}
+
+.signup_container a{
+    color: #1DB954;
+}
